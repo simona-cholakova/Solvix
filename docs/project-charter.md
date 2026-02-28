@@ -147,3 +147,64 @@ Anna is flexible, enthusiastic and eager to make her career number one priority 
 | “I need to make sure complaints are assigned to the right department quickly.”  | I manually forward emails or contact departments separately. This causes delays, miscommunication, and sometimes duplicated work. | Allow direct department assignment within the system, improving internal communication and reducing resolution time. |
 | “I need to reduce complaint resolution time and improve customer satisfaction.”  | I manually review complaint records and follow up with departments to check progress. This delays decision-making and makes it hard to identify bottlenecks quickly. | Offer real-time complaint tracking and insightful analytics, enabling to quickly detect delays, lower response times, and therefore enhance customer satisfaction. |
 
+**Persona 2:**
+
+          **Demographic**  
+	         Age                                            34  
+           Gender                                     Male  
+           Marital Status                          Single  
+           Income                                     €50.000  
+           Experience   		               7 years   
+	          Employment type                   Full-time   
+	          Digital Skill Level                      Mediocre  
+        
+         **Lukas Weber                       Quotes:**  
+   Accountant at Zalando               “Returns are part of the business model. But when they                                                
+	                                          hit after the cutoff, they hit my sleep too.”
+
+**Screening question:** Does your role involve handling or adjusting financial reports due to customer complaints, refunds, or returns?
+
+**About Lukas:**
+
+Lukas Weber is a Financial Accountant at an e-commerce company similar to Zalando. He is responsible for revenue reporting and month-end closing, where customer returns and complaints directly impact financial results. Lukas often feels stressed when late returns or refund requests arrive after reporting deadlines, forcing him to make last-minute adjustments. He values accuracy, predictability, and better visibility into complaint trends to reduce financial volatility and pressure during closing periods.
+
+| Thinks | Lukas wants to know about complaints and returns as soon as possible so he can re-adjust finances. |
+| :---- | :---- |
+| **Sees** | He sees late customer complaints that enter the system after deadlines, making reports less accurate. |
+| **Feels** | Stressed during the month closing reports, because he anticipates last minute changes and is frustrated that he does not have insight into them sooner. |
+| **Does** | Contacts customer service to clarify any uncertainties and build an excel report to estimate return provisions. |
+
+| Problem Scenarios | Current Alternatives | Value Proposition |
+| :---- | :---- | :---- |
+| “It’s the last day of the month, and Lukas has already closed the books. Two days later, a batch of delayed customer complaints is processed by customer service. Many of them include refund approvals for high-value items.” |  At the end of every month I contact the Customer service department to ask them about any new complaints. | Keep all complaints in one centralized dashboard with real-time status tracking, making monitoring faster, clearer, and more organized.  |
+| “During month-end closing, Lukas receives multiple emails from customer service about unresolved complaints. The information is incomplete, spread across systems, and not standardized.”  |  I manually format the information provided to me and then handle the accounting after. |  Keep all complaints in one place and already formatted to reduce manual overhead. |
+
+ 
+
+**Persona 3:**  
+	**Demographic**  
+	Age                                            19  
+       Gender                                     Female   
+       Marital Status                          Single  
+    	Employment type                   Not employed 	       
+         
+           
+
+           **Dorothy**             
+**Quotes:**
+
+  
+
+**Screening question:** Do you manage customer complaints, assign them to departments, track their status, and use digital tools to improve resolution and team performance?
+
+**About Emma:**
+
+**Dorothy is a first year student at the faculty of Arts in Slovenia.**  
+**She** 
+
+Anna Wattson is the Customer Care Manager at the headquarters of Zalando in Berlin, Germany. She goes to work Monday to Friday from 9am to 5pm. She oversees the daily work of the customer service team. She makes sure customer complaints and problems are handled quickly and properly. She approves the goals set by the team to ensure customer satisfaction and works closely with them to consistently achieve those goals. 
+
+Anna’s main focus is monitoring and lowering complaint resolution time, keeping track of customer satisfaction scores, and team performance metrics. Anna reviews complex complaints, makes final decisions on refunds or compensations, and ensures consistent communication with customers and maintains the company’s reputation. 
+
+Anna is flexible, enthusiastic and eager to make her career number one priority in her life. She is always keen on new technology that makes her work life easier and more beneficial for her team and the customers. She believes that excellent customer service is key to business success and that learning from complaints helps improve future performance.
+
