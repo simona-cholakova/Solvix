@@ -107,17 +107,17 @@ Implementing a Complaint Management System will:
 
 **9\. Signature:**     
 
-**Personas:** 
+**Personas**
 
 **Persona 1:**  
 	**Demographic**  
 	**Age**                                            45  
            **Gender**                                     Female   
-           **Marital Status**                          Single  
+           **Marital Status**                         Married  
            **Income**                                     €70.500  
-           **Experience**   		                18 years   
+           **Experience**   		      18 years   
 	**Employment type**                   Full-time 	       
-**Digital Skill Level**                      Advanced             
+**Digital Skill Level**                     Advanced             
            
 
            **Anna Wattson                        Quotes:**
@@ -127,7 +127,9 @@ Implementing a Complaint Management System will:
 
 **Screening question:** Do you manage customer complaints, assign them to departments, track their status, and use digital tools to improve resolution and team performance?
 
-**About Emma:**
+**Function:** Customer Care Manager at Zalando (Responsible for complaint handling and team performance)
+
+**About Anna:**
 
 Anna Wattson is the Customer Care Manager at the headquarters of Zalando in Berlin, Germany. She goes to work Monday to Friday from 9am to 5pm. She oversees the daily work of the customer service team. She makes sure customer complaints and problems are handled quickly and properly. She approves the goals set by the team to ensure customer satisfaction and works closely with them to consistently achieve those goals. 
 
@@ -152,11 +154,11 @@ Anna is flexible, enthusiastic and eager to make her career number one priority 
           **Demographic**  
 	         **Age**                                            34  
            **Gender**                                     Male  
-           **Marital Status**                          Single  
+           **Marital Status**                         Single  
            **Income**                                     €50.000  
            **Experience**   		               7 years   
-	          **Employment type**                   Full-time   
-	          **Digital Skill Level**                      Mediocre  
+	          **Employment type**                 Full-time   
+	          **Digital Skill Level**                    Mediocre  
         
          **Lukas Weber                       Quotes:**  
    Accountant at Zalando               “Returns are part of the business model. But when they                                                
@@ -164,9 +166,13 @@ Anna is flexible, enthusiastic and eager to make her career number one priority 
 
 **Screening question:** Does your role involve handling or adjusting financial reports due to customer complaints, refunds, or returns?
 
+**Function:** Financial Accountant responsible for revenue reporting and return adjustments
+
 **About Lukas:**
 
 Lukas Weber is a Financial Accountant at an e-commerce company similar to Zalando. He is responsible for revenue reporting and month-end closing, where customer returns and complaints directly impact financial results. Lukas often feels stressed when late returns or refund requests arrive after reporting deadlines, forcing him to make last-minute adjustments. He values accuracy, predictability, and better visibility into complaint trends to reduce financial volatility and pressure during closing periods.
+
+Lukas prefers structured systems and clear communication between departments to avoid last-minute financial adjustments. He values transparency and early visibility into refunds and complaints so he can prepare accurate reports. Better access to real-time complaint data would reduce stress during month-end closing and improve financial forecasting.
 
 | Thinks | Lukas wants to know about complaints and returns as soon as possible so he can re-adjust finances. |
 | :---- | :---- |
@@ -182,21 +188,23 @@ Lukas Weber is a Financial Accountant at an e-commerce company similar to Zaland
  
 
 **Persona 3:**  
-	**Demographic**  
-	**Age**                          19  
-       **Gender**                  Female   
-       **Marital Status**      Single  
-       **Income**                 €500(monthly allowance)  
-   	**Employment type**  Student (Not employed)  
-**Digital Skill Level**      High             
+       **Demographic**  
+        
+       **Age**                                 19  
+       **Gender**                          Female   
+       **Marital Status**              Single  
+       **Income**                          €500(monthly allowance)  
+       **Employment type**       Student (Not employed)  
+        **Digital Skill Level**         High             
    
 
-           **Dorothy Novak**    
-  First year student in Slovenia                     
+           **Dorothy Novak                    Quotes:**
 
-**Quotes:** “I planned my whole outfit around that discount code. If it says 15 days, why does it expire in 24 hours? It feels like a scam.”
+First year student in Slovenia          “If something goes wrong, fixing it shouldn’t take hours.”             
 
 **Screening question:** Have you ever experienced a technical error with a promotional code and sought a quick way to report it and track the resolution?
+
+**Function:** Zalando customer (student shopper)
 
 **About Dorothy:**  
 Dorothy is a first year student at the Faculty of Arts in Ljubljana, Slovenia.   
@@ -205,7 +213,7 @@ Recently, she received a promotional code via email that explicitly stated it wa
 She spent her evening carefully picking out a pair of sneakers and a jacket, planning to purchase them the next morning after the lecture. However, when she tried to apply the code less than 24 hours later, the system rejected it as “expired”.   
 For Dorothy this isn’t just a technical glitch; it’s the difference between being able to afford the items or having to empty her cart. She is frustrated and feels misled by the marketing, but she doesn’t want to spend hours on a phone line or send redundant emails. She wishes the fix to her problem was just a few clicks away and didn’t require many social interactions.
 
-| Thinks | Dorothy thinks that large companies should honor their advertisements.She believes that if a system error occurs, the company should provide a replacement code immediately. She wants a platform where she will know that her complaints will be immediately heard. |
+| Thinks | Dorothy thinks that large companies should honor their advertisements.She believes that if a system error occurs, the company should provide a replacement code immediately. She wants a platform where she will know that her complaints will be immediately heard and acted upon. |
 | :---- | :---- |
 | **Sees** | She sees influencers posting about “limited time” deals and feels pressure to shop fast, but she also sees “broken” customer service links that lead nowhere. |
 | **Feels** | Feels annoyed and “cheated” out of a deal. As a student, she is price sensitive, so the loss of a 30% discount feels significant. She feels anxious about whether she will get a response before the items she wants sell out. |
@@ -213,6 +221,6 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 
 | Problem Scenarios | Current Alternatives | Value Proposition |
 | :---- | :---- | :---- |
-| “I have proof that my code should work, but the checkout page says it’s expired. I need to show someone my screenshot” | Searching for a hidden customer service email or waiting in a live chat queue for 40 minutes. | Dorothy can quickly upload her screenshot via a dedicated complaint form, ensuring her evidence is seen by the right department.  |
-| “I submitted a complaint through email, but I have no idea if anyone is looking at it. I’m afraid the sneakers will go out of stock.”  | Refreshing her email inbox constantly and hoping for a non-automated reply. | Dorothy can use the Status Tracking feature to see that her complaint is “In Progress”, giving her peace of mind that resolution is coming. |
+| “I have proof that my code should work, but the checkout page says it’s expired. I need to show someone my screenshot” |  Searching for a hidden customer service email or waiting in a live chat queue for 40 minutes. | Quickly upload her screenshot via a dedicated complaint form, ensuring her evidence is seen by the right department.  |
+| “I submitted a complaint through email, but I have no idea if anyone is looking at it. I’m afraid the sneakers will go out of stock.”  |  Refreshing email inbox constantly and hoping for a non-automated reply. |  Use the Status Tracking feature to see that her complaint is “In Progress”, giving her peace of mind that resolution is coming. |
 
