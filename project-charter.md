@@ -111,13 +111,13 @@ Implementing a Complaint Management System will:
 
 **Persona 1:**  
 	**Demographic**  
-	Age                                            45  
-           Gender                                     Female   
-           Marital Status                          Single  
-           Income                                     €70.500  
-           Experience   		                18 years   
-	Employment type                   Full-time 	       
-Digital Skill Level                      Advanced             
+	**Age**                                            45  
+           **Gender**                                     Female   
+           **Marital Status**                          Single  
+           **Income**                                     €70.500  
+           **Experience**   		                18 years   
+	**Employment type**                   Full-time 	       
+**Digital Skill Level**                      Advanced             
            
 
            **Anna Wattson                        Quotes:**
@@ -143,20 +143,20 @@ Anna is flexible, enthusiastic and eager to make her career number one priority 
 
 | Problem Scenarios | Current Alternatives | Value Proposition |
 | :---- | :---- | :---- |
-| “I need a clear overview of all customer complaints and their current status.” | I use spreadsheets, emails, and manual tracking to monitor complaints. This takes time, information gets lost, and it’s hard to see real-time progress. | Keep all complaints in one centralized dashboard with real-time status tracking, making monitoring faster, clearer, and more organized.  |
+| “I need a clear overview of all customer complaints and their current status.” | I use spreadsheets, emails, and manual tracking to monitor complaints. This takes time, information gets lost, and it’s hard to see real-time progress. | Keep all complaints in one centralized dashboard with real time status tracking, making monitoring faster, clearer, and more organized.  |
 | “I need to make sure complaints are assigned to the right department quickly.”  | I manually forward emails or contact departments separately. This causes delays, miscommunication, and sometimes duplicated work. | Allow direct department assignment within the system, improving internal communication and reducing resolution time. |
-| “I need to reduce complaint resolution time and improve customer satisfaction.”  | I manually review complaint records and follow up with departments to check progress. This delays decision-making and makes it hard to identify bottlenecks quickly. | Offer real-time complaint tracking and insightful analytics, enabling to quickly detect delays, lower response times, and therefore enhance customer satisfaction. |
+| “I need to reduce complaint resolution time and improve customer satisfaction.”  | I manually review complaint records and follow up with departments to check progress. This delays decision-making and makes it hard to identify bottlenecks quickly. | Offer real time complaint tracking and insightful analytics, enabling to quickly detect delays, lower response times, and therefore enhance customer satisfaction. |
 
 **Persona 2:**
 
           **Demographic**  
-	         Age                                            34  
-           Gender                                     Male  
-           Marital Status                          Single  
-           Income                                     €50.000  
-           Experience   		               7 years   
-	          Employment type                   Full-time   
-	          Digital Skill Level                      Mediocre  
+	         **Age**                                            34  
+           **Gender**                                     Male  
+           **Marital Status**                          Single  
+           **Income**                                     €50.000  
+           **Experience**   		               7 years   
+	          **Employment type**                   Full-time   
+	          **Digital Skill Level**                      Mediocre  
         
          **Lukas Weber                       Quotes:**  
    Accountant at Zalando               “Returns are part of the business model. But when they                                                
@@ -176,35 +176,43 @@ Lukas Weber is a Financial Accountant at an e-commerce company similar to Zaland
 
 | Problem Scenarios | Current Alternatives | Value Proposition |
 | :---- | :---- | :---- |
-| “It’s the last day of the month, and Lukas has already closed the books. Two days later, a batch of delayed customer complaints is processed by customer service. Many of them include refund approvals for high-value items.” |  At the end of every month I contact the Customer service department to ask them about any new complaints. | Keep all complaints in one centralized dashboard with real-time status tracking, making monitoring faster, clearer, and more organized.  |
+| “It’s the last day of the month, and Lukas has already closed the books. Two days later, a batch of delayed customer complaints is processed by customer service. Many of them include refund approvals for high-value items.” |  At the end of every month I contact the Customer service department to ask them about any new complaints. | Keep all complaints in one centralized dashboard with real time status tracking, making monitoring faster, clearer, and more organized.  |
 | “During month-end closing, Lukas receives multiple emails from customer service about unresolved complaints. The information is incomplete, spread across systems, and not standardized.”  |  I manually format the information provided to me and then handle the accounting after. |  Keep all complaints in one place and already formatted to reduce manual overhead. |
 
  
 
 **Persona 3:**  
 	**Demographic**  
-	Age                                            19  
-       Gender                                     Female   
-       Marital Status                          Single  
-    	Employment type                   Not employed 	       
-         
-           
+	**Age**                          19  
+       **Gender**                  Female   
+       **Marital Status**      Single  
+       **Income**                 €500(monthly allowance)  
+   	**Employment type**  Student (Not employed)  
+**Digital Skill Level**      High             
+   
 
-           **Dorothy**             
-**Quotes:**
+           **Dorothy Novak**    
+  First year student in Slovenia                     
 
-  
+**Quotes:** “I planned my whole outfit around that discount code. If it says 15 days, why does it expire in 24 hours? It feels like a scam.”
 
-**Screening question:** Do you manage customer complaints, assign them to departments, track their status, and use digital tools to improve resolution and team performance?
+**Screening question:** Have you ever experienced a technical error with a promotional code and sought a quick way to report it and track the resolution?
 
-**About Emma:**
+**About Dorothy:**  
+Dorothy is a first year student at the Faculty of Arts in Ljubljana, Slovenia.   
+Like most students, she lives on a tight budget and treats herself to new clothes,shoes or accessories only when there is a good sale or a discount code available. She is a frequent Zalando shopper because of the variety and the convenience of home delivery.  
+Recently, she received a promotional code via email that explicitly stated it was valid for the next 15 days.   
+She spent her evening carefully picking out a pair of sneakers and a jacket, planning to purchase them the next morning after the lecture. However, when she tried to apply the code less than 24 hours later, the system rejected it as “expired”.   
+For Dorothy this isn’t just a technical glitch; it’s the difference between being able to afford the items or having to empty her cart. She is frustrated and feels misled by the marketing, but she doesn’t want to spend hours on a phone line or send redundant emails. She wishes the fix to her problem was just a few clicks away and didn’t require many social interactions.
 
-**Dorothy is a first year student at the faculty of Arts in Slovenia.**  
-**She** 
+| Thinks | Dorothy thinks that large companies should honor their advertisements.She believes that if a system error occurs, the company should provide a replacement code immediately. She wants a platform where she will know that her complaints will be immediately heard. |
+| :---- | :---- |
+| **Sees** | She sees influencers posting about “limited time” deals and feels pressure to shop fast, but she also sees “broken” customer service links that lead nowhere. |
+| **Feels** | Feels annoyed and “cheated” out of a deal. As a student, she is price sensitive, so the loss of a 30% discount feels significant. She feels anxious about whether she will get a response before the items she wants sell out. |
+| **Does** | She takes a screenshot of the original email (showing the 15 day validity) and the error message in her cart. She looks for a “Contact Us” or “Submit Complaint” button that doesn’t require a long phone call. |
 
-Anna Wattson is the Customer Care Manager at the headquarters of Zalando in Berlin, Germany. She goes to work Monday to Friday from 9am to 5pm. She oversees the daily work of the customer service team. She makes sure customer complaints and problems are handled quickly and properly. She approves the goals set by the team to ensure customer satisfaction and works closely with them to consistently achieve those goals. 
-
-Anna’s main focus is monitoring and lowering complaint resolution time, keeping track of customer satisfaction scores, and team performance metrics. Anna reviews complex complaints, makes final decisions on refunds or compensations, and ensures consistent communication with customers and maintains the company’s reputation. 
-
-Anna is flexible, enthusiastic and eager to make her career number one priority in her life. She is always keen on new technology that makes her work life easier and more beneficial for her team and the customers. She believes that excellent customer service is key to business success and that learning from complaints helps improve future performance.
+| Problem Scenarios | Current Alternatives | Value Proposition |
+| :---- | :---- | :---- |
+| “I have proof that my code should work, but the checkout page says it’s expired. I need to show someone my screenshot” | Searching for a hidden customer service email or waiting in a live chat queue for 40 minutes. | Dorothy can quickly upload her screenshot via a dedicated complaint form, ensuring her evidence is seen by the right department.  |
+| “I submitted a complaint through email, but I have no idea if anyone is looking at it. I’m afraid the sneakers will go out of stock.”  | Refreshing her email inbox constantly and hoping for a non-automated reply. | Dorothy can use the Status Tracking feature to see that her complaint is “In Progress”, giving her peace of mind that resolution is coming. |
 
