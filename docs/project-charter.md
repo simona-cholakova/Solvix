@@ -1,6 +1,6 @@
 
 
-| Created  →  Feb 21, 2026  | Last update  →  Feb 28, 2026 |
+| Created  →  Feb 21, 2026  | Last update  →  Mar 8, 2026 |
 | ----- | :---: |
 |  SOLVIX  Management of Information Technologies   |  |
 | Simona Cholakova 89231126Nade Belovinova 89231099Jaka Hrvatin 89231224Ema Čikotić 89221136                                                                                              ***UP FAMNIT 2025/26*** |  |
@@ -228,27 +228,31 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 
 **Persona 1 : Anna Watson, the Customer Care Manager**
 
+**Epic Story:** As a team leader, I want one simple screen to see and assign all incoming complaints, so I can make sure my team is working on the right things and no customer is left waiting.
+
 | User story | Test cases |
 | :---- | :---- |
-|  As a Customer Care Manager, I want to see all customer complaints in a centralized dashboard so that I can quickly monitor their status and manage them efficiently | **TC1:  Make sure**  all complaints are displayed in a dashboard **TC2:  Make sure** each complaint shows ID, customer name, complaint type, status, department and submission date **TC3: Make sure** complaints can be filtered by status, department, or complaint type |
-|  As a Customer Care Manager, I want to assign complaints to the appropriate department so that issues are handled by the correct team  | **TC1:  Make sure**  a department dropdown is available when viewing a complaint **TC2:  Make sure** the assignment can be saved **TC3: Make sure** the complaint appears in the assigned department’s queue |
-|  As a Customer Care Manager, I want to track the status of complaints so that I can ensure they are resolved within an acceptable time | **TC1:  Make sure**  complaint status are visible (Pending, In Progress, Resolved) **TC2:  Make sure** departments can update complaint status. **TC3: Make sure** the resolution time is recorded and displayed. |
+|  As a Customer Care Manager, I want to see all customer complaints in a centralized dashboard so that I can quickly monitor their status and manage them efficiently. | **TC1:  Make sure** all complaints are displayed in a dashboard. **TC2:  Make sure** each complaint shows ID, customer name, complaint type, status, department and submission date. **TC3: Make sure** complaints can be filtered by status, department, or complaint type. |
+|  As a Customer Care Manager, I want to assign complaints to the appropriate department so that issues are handled by the correct team. | **TC1:  Make sure**  a department dropdown is available when viewing a complaint. **TC2:  Make sure** the assignment can be saved. **TC3: Make sure** the complaint appears in the assigned department’s queue. |
+|  As a Customer Care Manager, I want to track the status of complaints so that I can ensure they are resolved within an acceptable time. | **TC1:  Make sure** complaint status is visible (Pending, In Progress, Resolved). **TC2:  Make sure** departments can update complaint status. **TC3: Make sure** the resolution time is recorded and displayed. |
 
 **Persona 2: Lukas Webber, the accountant**
 
-***Epic story***: “As a financial accountant, I want to have full transparency and structured access to all financially relevant complaints, so that I can eliminate manual tracking, reduce stress during month end closing and ensure the company’s financial reports are 100% accurate” 
+**Epic story**: As a financial accountant, I want to have full transparency and structured access to all financially relevant complaints, so that I can eliminate manual tracking, reduce stress during month end closing and ensure the company’s financial reports are 100% accurate.
 
 | *User story* | *Test cases* |
 | :---- | :---- |
-| As a Financial Accountant,I want to view a real time list of complaints categorized as **"Refunds" or "Returns",** so that I can identify potential financial liabilities before they hit the books. | **TC1.1:** Verify that the dashboard allows filtering by "Complaint Type" (e.g., Refund, Damaged Product). **TC1.2:** Ensure that each financial complaint displays the specific **Order Value** and **Requested Refund Amount**. **TC1.3:** Confirm that the dashboard status updates automatically when a Customer Care agent approves a refund. **TC1.4:** Verify that a "Closing Date" filter exists, allowing Lukas to see only complaints submitted within the current fiscal month.  |
-|  As a Financial Accountant, I want to export complaint data into a structured CSV or Excel file, so that I can import the data directly into my accounting software without manual re-formatting.  | **TC2.1:** Verify the existence of an **"Export to CSV/Excel"** button within the reporting module. **TC2.2:** Confirm that the exported file contains the following mandatory columns: `Complaint_ID`, `Status`, `Amount`, `Date_Approved`, and `Order_ID`. **TC2.3:** Ensure that the export includes a **"Status"** flag **(e.g., "Pending" vs "Resolved")** to help differentiate actual payouts. **TC2.4:** Verify that the system generates a success message or notification once the file is ready for download.  |
-|  |  |
+| As a Financial Accountant,I want to view a real time list of complaints categorized as **"Refunds"** or **"Returns"** (or else)**,** so that I can identify potential financial liabilities before they hit the books. | **TC1:** Verify that the dashboard allows filtering by "Complaint Type" (e.g., Refund, Damaged Product). **TC2:** Ensure that each financial complaint displays the specific **Order Value** and **Requested Refund Amount**. **TC3:** Confirm that the dashboard status updates automatically when a Customer Care agent approves a refund. **TC4:** Verify that a "Closing Date" filter exists, allowing Lukas to see only complaints submitted within the current fiscal month. |
+|  As a Financial Accountant, I want to export complaint data into a structured CSV or Excel file, so that I can import the data directly into my accounting software without manual re-formatting.  | **TC1:** Verify the existence of an **"Export to CSV/Excel"** button within the reporting module. **TC2:** Confirm that the exported file contains the following mandatory columns: `Complaint_ID`, `Status`, `Amount`, `Date_Approved`, and `Order_ID`. **TC3:** Ensure that the export includes a **"Status"** flag **(e.g., "Pending" vs "Resolved")** to help differentiate actual payouts. **TC4:** Verify that the system generates a success message or notification once the file is ready for download.  |
+|  As a Financial Accountant, I want to receive a summary report of all approved refunds for the current month, so that I can easily reconcile them with the financial statements. | **TC1:** Verify that the reporting module includes a **“Monthly Refund Summary” option**. **TC2:** Ensure the report lists **Complaint ID, Order ID, Refund Amount, Approval Date, and Status**. **TC3:** Confirm that Lukas can **filter the report by month and year**. **TC4:** Verify that only complaints with **status \= Resolved/Refund Approved** appear in the report. |
 
 **Persona 3 : Dorothy Novak, the Student**
 
+**Epic Story:** As a busy student, I want a quick way to report my issue and see exactly what is happening with it, so I can get my discount fixed without wasting time on phone calls or checking my email constantly.
+
 | *User story* | *Test cases* |
 | :---- | :---- |
-| I want to upload proof (like screenshots) when submitting a complaint, so that the support team can quickly verify my issue and resolve it without long chats or emails. | **TC 1:** The user can **attach files** to the complaint form. **TC 2:** The file is visible to the support team handling the complaint.  |
-| I want to track the status of my complaint, so that I know whether it is being processed and don’t have to constantly check my email. | **TC1:** The complaint has statuses like  **Submitted → Seen → In-Progress → Resolved.** **TC 2:** Users can view the complaint status in their account and receive **push notifications** whenever the status is updated. **TC 3:** The **complaint status updates automatically** when support takes action.  |
-|  |  |
+| I want to upload proof (like screenshots) when submitting a complaint, so that the support team can quickly verify my issue and resolve it. | **TC1:** The user can **attach files** to the complaint form. **TC2:** The file is visible to the support team handling the complaint.  |
+| I want to track the status of my complaint, so that I know whether it is being processed and don’t have to constantly check my email. | **TC1:** The complaint has statuses like  **Submitted, Seen, In-Progress, Resolved.** **TC2:** Users can view the complaint status in their account and receive **push notifications** whenever the status is updated. **TC3:** The **complaint status updates automatically** when support takes action.  |
+|  As a customer, I want to receive a clear resolution or response to my complaint directly on the platform, so that I don’t have to communicate through multiple emails or support channels. | **TC1:** Verify that the system allows support staff to **send a response or resolution message directly within the complaint page**. **TC2:** Ensure that the customer can **view the response when they open their complaint in their account**. **TC3:** Confirm that the response clearly shows **the resolution details** (e.g., replacement promo code, refund approval, explanation). **TC4:** Verify that the system **marks the complaint as “Resolved” once the resolution message is sent**. **TC5:** Ensure the customer can **acknowledge or confirm the resolution** (for example with a “Mark as solved” button). |
 
