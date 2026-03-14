@@ -256,3 +256,110 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 | I want to track the status of my complaint, so that I know whether it is being processed and don’t have to constantly check my email. | **TC1:** The complaint has statuses like  **Submitted, Seen, In-Progress, Resolved.** **TC2:** Users can view the complaint status in their account and receive **push notifications** whenever the status is updated. **TC3:** The **complaint status updates automatically** when support takes action.  |
 |  As a customer, I want to receive a clear resolution or response to my complaint directly on the platform, so that I don’t have to communicate through multiple emails or support channels. | **TC1:** Verify that the system allows support staff to **send a response or resolution message directly within the complaint page**. **TC2:** Ensure that the customer can **view the response when they open their complaint in their account**. **TC3:** Confirm that the response clearly shows **the resolution details** (e.g., replacement promo code, refund approval, explanation). **TC4:** Verify that the system **marks the complaint as “Resolved” once the resolution message is sent**. **TC5:** Ensure the customer can **acknowledge or confirm the resolution** (for example with a “Mark as solved” button). |
 
+**User Interviews and Prototyping**
+
+**People interviewed:** 
+
+| Person | Role | Relation to system |
+| :---- | :---- | :---- |
+| Eva Petrushevska | Zalando user | Represents regular e-commerce users |
+| Darko Cholakov | Accountant  | Represents financial staff who need visibility into complaints |
+| Alja Eremic | Zalando user | Represents regular e-commerce users |
+
+**Interview 1 \- Accountant:**
+
+**Name:** Darko Cholakov  
+**Age:** 40  
+**Position:** Financial Accountant at a mid-sized online retail company  
+**Experience:** 6 years in accounting
+
+### **Questions & Answers**
+
+**Q1: Do customer complaints affect your financial reporting?**  
+**A:** Yes, complaints that lead to refunds or returns directly impact revenue reporting and monthly financial statements.
+
+**Q2: How do you currently receive information about refund complaints?**  
+**A:** Usually through emails or Excel files sent by the customer service team.
+
+**Q3: What problems do you experience with the current process of receiving complaints?**  
+**A:** Information sometimes arrives late or in different formats, which requires manual adjustments.
+
+**Q4: Would access to a centralized system with all complaints help your work?**  
+**A:** Yes, it would make it easier to track refunds and prepare financial reports, only if the learning curve is easy enough to accommodate quickly.
+
+**Q5: What information about complaints is most important for financial analysis?**  
+**A:** Complaint type, price, refund amount, and approval date.
+
+**Q6: Would the ability to filter complaints by type (refund, return, damaged product) be useful?**  
+**A:** Yes, especially when analyzing refunds, because they affect my financial reports directly..
+
+**Q7: Would exporting complaint data into Excel or CSV be useful for you?**  
+**A:** I think that any solution that would have a structured answer would be better than the current alternatives that we have.
+
+**Q8: Would a search functionality help you find specific complaints or orders faster?**  
+**A:** Yes, especially when checking specific orders during financial audits or reporting.
+
+**Interview 2 – Zalando User**
+
+**Name:** Eva Petrushevska  
+**Age:** 21  
+**Occupation:** University student  
+**Shopping habits:** Frequently shops online and uses discount codes
+
+### **Questions & Answers**
+
+**Q1: Have you ever experienced a problem with an online order?**  
+**A:** Happily it did not happen to me, but I see that it is a common thing that happens to people online.
+
+**Q2: If you did have a problem how would you report it?**  
+**A:** I would contact customer support through email or phone number if it is available.
+
+**Q3: What would be the most frustrating part of that process?**  
+**A:** Waiting for a response.
+
+**Q4: Would it help if you could track the status of your complaint online?**  
+**A:** Yes, it would make me feel more at ease since I would be able to see that they actually received it.
+
+**Q5: Would uploading screenshots/files when submitting a complaint be useful?**  
+**A:** Only in cases when showing proof of an issue.
+
+**Q6: Would it be useful to search for your complaints in your account instead of scrolling through emails?**  
+**A:** Yes, that would make it easier to find and track status of complaints.
+
+**Interview 3 – Zalando User**
+
+**Name:** Alja Eremic  
+**Age:** 22  
+**Occupation:** University student  
+**Shopping habits:** Frequently shops online and uses discount codes
+
+### **Questions & Answers**
+
+**Q1: Have you ever experienced a problem with an online order?**  
+**A:** Yes, once I received the wrong size of shoes.
+
+**Q2: How did you approach the problem?**  
+**A:** I first checked the help section of the website and then I sent an email, but it wasn’t very helpful.
+
+**Q3: What is the most frustrating part of that process?**  
+**A:** Waiting for a response, not knowing if the email address is even correct.
+
+**Q4: Would it help if you could track the status of your complaint online?**  
+**A:** Well, yes but still I would prefer the process itself to be just faster.
+
+**Q5: Would uploading screenshots/files when submitting a complaint be useful?**  
+**A:** Not really, but I guess for some people it would be a nice thing.
+
+**Q6: Would it be useful to search for your complaints in your account instead of scrolling through emails?**  
+**A:** I guess yes, if you have multiple complaints at once.
+
+**Conclusions**
+
+The interviews confirm that the main hypotheses are valid.
+
+* The **accountant** needs structured complaint data, filtering and search features to handle refunds efficiently and reduce manual work.
+
+* **Zalando users** want faster responses and the ability to search their complaints instead of relying on emails.
+
+Overall, both employees and customers would benefit from a **centralized system**, and the interviews highlighted **search functionality** as an important improvement for the prototype.
+
