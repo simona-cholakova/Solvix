@@ -296,7 +296,7 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 **Q7: Would exporting complaint data into Excel or CSV be useful for you?**  
 **A:** I think that any solution that would have a structured answer would be better than the current alternatives that we have.
 
-**Q8: Would a search functionality help you find specific complaints or orders faster?**  
+**Q8: Would search functionality help you find specific complaints or orders faster?**  
 **A:** Yes, especially when checking specific orders during financial audits or reporting.
 
 **Interview 2 – Zalando User**
@@ -363,6 +363,7 @@ The interviews confirm that the main hypotheses are valid.
 
 Overall, both employees and customers would benefit from a **centralized system**, and the interviews highlighted **search functionality** as an important improvement for the prototype.
 
-**Link to our Prototype:** [https://www.figma.com/make/lBftyfNBbrM1pf085rWvIJ/Complaint-Management-Dashboard-Wireframe?p=f\&t=ZabJo7pZM2ERXOkF-0\&fullscreen=1](https://www.figma.com/make/lBftyfNBbrM1pf085rWvIJ/Complaint-Management-Dashboard-Wireframe?p=f&t=ZabJo7pZM2ERXOkF-0&fullscreen=1)
+**Link to our Prototype:** 
 
+[https://femur-push-29224551.figma.site/](https://femur-push-29224551.figma.site/)
 
