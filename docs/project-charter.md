@@ -1,6 +1,6 @@
 
 
-| Created  →  Feb 21, 2026  | Last update  →  Mar 8, 2026 |
+| Created  →  Feb 21, 2026  | Last update  →  Mar 15, 2026 |
 | ----- | :---: |
 |  SOLVIX  Management of Information Technologies   |  |
 | Simona Cholakova 89231126Nade Belovinova 89231099Jaka Hrvatin 89231224Ema Čikotić 89221136                                                                                              ***UP FAMNIT 2025/26*** |  |
@@ -362,4 +362,7 @@ The interviews confirm that the main hypotheses are valid.
 * **Zalando users** want faster responses and the ability to search their complaints instead of relying on emails.
 
 Overall, both employees and customers would benefit from a **centralized system**, and the interviews highlighted **search functionality** as an important improvement for the prototype.
+
+**Link to our Prototype:** [https://www.figma.com/make/lBftyfNBbrM1pf085rWvIJ/Complaint-Management-Dashboard-Wireframe?p=f\&t=ZabJo7pZM2ERXOkF-0\&fullscreen=1](https://www.figma.com/make/lBftyfNBbrM1pf085rWvIJ/Complaint-Management-Dashboard-Wireframe?p=f&t=ZabJo7pZM2ERXOkF-0&fullscreen=1)
+
 
