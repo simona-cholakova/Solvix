@@ -1,6 +1,6 @@
 
 
-| Created  →  Feb 21, 2026  | Last update  →  Mar 15, 2026 |
+| Created  →  Feb 21, 2026  | Last update  →  Mar 21, 2026 |
 | ----- | :---: |
 |  SOLVIX  Management of Information Technologies   |  |
 | Simona Cholakova 89231126Nade Belovinova 89231099Jaka Hrvatin 89231224Ema Čikotić 89221136                                                                                              ***UP FAMNIT 2025/26*** |  |
@@ -400,7 +400,7 @@ The test will include 3 or more participants who match the target persona (users
 **Screening question**
 
 * Have you ever used a dashboard or system to manage tasks, complaints, or data?  
-* How often do you use such systems? (Daily / Occasionally / Never) 
+* How often do you use such systems? (Daily / Occasionally / Never). 
 
 **Research Composition**
 
@@ -415,7 +415,7 @@ The test will include 3 or more participants who match the target persona (users
 | \# | Item | Notes |
 | :---- | :---- | :---- |
 | 1 | Have the handwritten questions and tasks ready. | Keep open for quick reference. |
-| 2 | Confirm the prototype is working. | Test  all commands and flows. |
+| 2 | Confirm the prototype is working. | Test all commands and flows. |
 | 3 | Confirm note-taking setup and timer. | Take hand written notes during the session and time each task. |
 
 **Session Design**  
@@ -459,3 +459,87 @@ Notes will be taken during the session, including observations and participant f
 That’s everything for now. Would it be alright if we contacted you later for follow-up questions or additional testing, if needed?”
 
 **Test Result**
+
+**Person 1:**
+
+| Task | Time | Result | Notes |
+| ----- | :---: | :---: | ----- |
+|  Search “Emily Davis” |  12 sec |  Success | Typed full name; search worked smoothly |
+| Filter “Pending” | 18 sec | Success | Slight hesitation finding filter icon |
+| Open C‑005 | 9 sec | Success | Clicked row immediately |
+|  Change status |  32 sec |  Partial confusion | Expected a dropdown, not a side panel |
+| Assign department | 21 sec | Success | Dropdown clear |
+| Add internal note | 41 sec | Success | Comment box easy to find |
+| Save changes | 14 sec | Failed initially | Didn’t notice button; expected auto‑save |
+
+### **General Feedback**
+
+* “The layout is clean but the Save button blends in too much.”  
+* “Status change interaction feels different from other systems I use.”
+
+**Person 2:** 
+
+| Task | Time | Result | Notes |
+| ----- | :---: | :---: | ----- |
+|  Search “Emily Davis” |  17 sec |  Struggled | Tried filtering first instead of search |
+| Filter “Pending” | 7 sec | Success | Found filter quickly |
+| Open C‑005 | 14 sec | Success | Scanned list slowly |
+|  Change status |  48 sec |  Confused | Didn’t understand status categories |
+| Assign department | 25 sec | Struggled | Dropdown label unclear |
+| Add internal note | 50 sec | Struggled | Thought notes were in a different tab |
+| Save changes | 10 sec | Success | Found button after scanning bottom area |
+
+### **General Feedback**
+
+* “I wasn’t sure where to add notes.”  
+* “Status options need clearer wording.”
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+**Person 3:**  
+
+| Task | Time | Result | Notes |
+| ----- | :---: | :---: | ----- |
+| Search “Emily Davis” | 7 sec | Success | Very fast; very easy |
+| Filter “Pending” | 10 sec | Success | No issues |
+| Open C‑005 | 6 sec | Success | Smooth |
+| Change status | 19 sec | Success | No issues |
+| Assign department | 11 sec | Success | Found quickly |
+| Add internal note | 50 sec | Success | No issues |
+| Save changes | 10 sec | Success | No issues |
+
+### **General Feedback**
+
+* “Everything is straightforward.”  
+* “Save button is fine, but could be more prominent.”
+
+**Person 4:** 
+
+| Task | Time | Result | Notes |
+| ----- | :---: | :---: | ----- |
+|  Search “Emily Davis” |  7 sec |  Success | Immediately navigated to the search bar, no issues encountered. |
+| Filter “Pending” |  20 sec |  Partial confusion | Was unsure whether to reset the previous search or continue with it. |
+| Open C‑005 |  43 sec | Success (with confusion) | Attempted to open C-005, but the prototype opened C-001 |
+|  Change status | 7  sec | Success | No issues |
+| Assign department | 5 sec | Success | No issues |
+| Add internal note | 16 sec  | Success | Found it easily and was happy to use it. |
+| Save changes | 3 sec | Success | No issues |
+
+### **General Feedback**
+
+* “The save button could be placed at the very end of the complaint details, as I might just scroll up the Save button and miss the Internal Notes section.”  
+* “The complaint could be opened by clicking anywhere on the row..”  
+* “A Reset filter button would be beneficial.”  
+* “Could be useful  to have a color coding for each status.”  
+* “It  is  easy to use.”  
+  
