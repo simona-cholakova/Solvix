@@ -367,3 +367,95 @@ Overall, both employees and customers would benefit from a **centralized system*
 
 [https://femur-push-29224551.figma.site/](https://femur-push-29224551.figma.site/)
 
+**Usability Testing Plan**
+
+**Objective and Methods**
+
+The goal of this usability test is to evaluate whether the complaint management interface allows Customer Care Managers to efficiently view, filter, and manage complaints.
+
+**Objectives**: 
+
+* Evaluate whether users can quickly locate specific complaints using search and filters  
+* Assess how easily users can understand complaint information from the dashboard  
+* Determine if users can navigate to complaint details without confusion  
+* Evaluate whether users can update complaint status and assign departments correctly  
+* Identify usability issues and points of confusion during task completion  
+* Collect user feedback on clarity, layout, and missing features 
+
+**Method**:
+
+The usability testing will be conducted in person using an interactive Figma prototype.  
+ Participants will be asked to complete predefined tasks while thinking aloud.
+
+The tester will observe user behavior, measure task completion time, and record any errors, difficulties, or feedback.
+
+**Product Version** 
+
+We will be using our interactive [Figma Prototype](https://femur-push-29224551.figma.site/)
+
+**Subjects**
+
+The test will include 3 or more participants who match the target persona (users familiar with dashboards or data management systems).
+
+**Screening question**
+
+* Have you ever used a dashboard or system to manage tasks, complaints, or data?  
+* How often do you use such systems? (Daily / Occasionally / Never) 
+
+**Research Composition**
+
+| \# | Item | Duration(min.) | Notes |
+| :---- | :---- | :---- | :---- |
+| 1 | Intro & Explanation | 5 | Explain the test goal, confirm participation. |
+| 2 | Test Tasks | 10 | Introduce the test scenario and ask participants to complete the assigned tasks. |
+| 3 | Post-Test Debrief | 10 | Ask for feedback on the prototype and consent to follow up. |
+
+**Pre-Session Checklist**
+
+| \# | Item | Notes |
+| :---- | :---- | :---- |
+| 1 | Have the handwritten questions and tasks ready. | Keep open for quick reference. |
+| 2 | Confirm the prototype is working. | Test  all commands and flows. |
+| 3 | Confirm note-taking setup and timer. | Take hand written notes during the session and time each task. |
+
+**Session Design**  
+   
+**“**Thank you for taking the time to participate in this test. My name is \_\_\_, and we are testing an early version of a complaint management interface designed to help Customer Care Managers easily navigate complaints and assign them to the appropriate departments.
+
+During the session, I will ask you to complete a few tasks.
+
+Please think out loud as you go and share any thoughts, suggestions, or difficulties you encounter.
+
+Remember, there are no wrong answers. This is not a test of you, but a way for us to improve the interface and make it more user-friendly.
+
+The session will take around 20 minutes.
+
+Do you have any questions before we begin?”
+
+| \# | Objective | Duration  (min.) | Notes |
+| :---- | :---- | :---- | :---- |
+| 1 | Find a specific complaint using search | 1 | **Task:** Find the complaint submitted by *Emily Davis* using search. **Output:** Can the user quickly locate a complaint using search? |
+| 2 | Filter complaints by status | 1 | **Task:** Filter complaints to show only *Pending* ones. **Output:** Can the user apply filters without confusion? |
+| 3 | Open a complaint | 1 | **Task**: Open complaint C-005 from the list. **Output**: Can the user easily navigate to the complaint details page? |
+| 4 | Change complaint status | 2 | **Task**: Change the complaint status *In Progress* **Output**: Can the user understand and update the complaint status without confusion? |
+| 5 | Assign department | 1 | **Task**: Assign a complaint to a different department. **Output**: Can the user correctly use the department dropdown? |
+| 6 | Add internal note | 2 | **Task**: Add an internal note to the complaint. **Output**: is the internal notes feature visible and easy to use? |
+| 7 | Save changes | 1 | **Task**: Save the changes made to the complaint. **Output**: Does the user notice and use the “Save Changes” button? |
+
+**Notes**:
+
+Notes will be taken during the session, including observations and participant feedback.
+
+**Post-Test Debrief**
+
+“Thank you very much for your participation. Your feedback will help us improve the product. Before we finish, we have a few final questions:
+
+* Was anything confusing or difficult to use?  
+* Did any part feel too time-consuming?  
+* What did you find most useful?  
+* Was anything tedious or frustrating?  
+* Was there anything missing that you expected to be included?
+
+That’s everything for now. Would it be alright if we contacted you later for follow-up questions or additional testing, if needed?”
+
+**Test Result**
