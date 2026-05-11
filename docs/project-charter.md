@@ -448,7 +448,7 @@ Notes will be taken during the session, including observations and participant f
 
 **Post-Test Debrief**
 
-“Thank you very much for your participation. Your feedback will help us improve the product. Before we finish, we have a few final questions:
+Thank you very much for your participation. Your feedback will help us improve the product. Before we finish, we have a few final questions:
 
 * Was anything confusing or difficult to use?  
 * Did any part feel too time-consuming?  
@@ -456,7 +456,7 @@ Notes will be taken during the session, including observations and participant f
 * Was anything tedious or frustrating?  
 * Was there anything missing that you expected to be included?
 
-That’s everything for now. Would it be alright if we contacted you later for follow-up questions or additional testing, if needed?”
+That’s everything for now. Would it be alright if we contacted you later for follow-up questions or additional testing, if needed?
 
 **Test Result**
 
@@ -617,6 +617,171 @@ Project stakeholders
 | **Internal Departments**  | o | Want clear assignment of complaints and better communication between departments. | Possible resistance to change or adaptation to new system. Benefit: improved workflow efficiency. | Provide training, ensure system is intuitive, clearly define responsibilities and workflows. |
 | **Project Team (Developers, QA, PM)**  | \+ | Wants to deliver a successful project, meet deadlines, and achieve good academic results. | Risk of stress, miscommunication, or overload due to deadlines. | Use Agile (Scrum), regular meetings, clear task division, realistic sprint planning. |
 | **ZPS – Zveza potrošnikov Slovenije (Sponsor)** | \+ | Wants the system to represent consumer interests, ensure transparency in complaint handling, and improve customer rights protection. | May push for more consumer facing features over internal ones. Benefit: adds credibility and legitimacy to the project. | Keep them informed through final documentation and reports. Ensure the system fairly represents customer needs alongside company needs. |
+
+**Engineering Management – Leadership**
+
+**Positive pattern 1: Remove roadblocks**
+
+**DEFINITION:**  
+ “Remove Roadblocks” focuses on helping the team solve obstacles quickly so development can continue efficiently. This pattern encourages proactive communication, collaboration, and fast problem-solving whenever technical, organizational, or communication issues appear.
+
+## **RELEVANCE TO OUR TEAM:**
+
+In our *Solvix* project, we are developing a complaint management platform for Zalando that includes frontend, backend, database integration, dashboards, complaint tracking, and reporting systems. Since multiple team members work on connected features, blockers can easily slow down progress if they are not addressed immediately.
+
+By removing roadblocks quickly, our team can maintain sprint progress, reduce delays, and improve collaboration between frontend, backend, QA testing, and project management tasks. This helps us stay focused on delivering an organized and user-friendly complaint management system.
+
+## **STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
+
+### **Quick Communication:**
+
+We discuss blockers during Scrum stand-ups and immediately inform teammates when technical or organizational problems appear.
+
+### **Team Collaboration:**
+
+If one team member struggles with API integration, database setup, or frontend issues, other members help solve the problem instead of letting work stop.
+
+### **Prioritizing Critical Issues:**
+
+Important issues such as backend crashes, database connection problems, or broken complaint tracking features are solved before moving to less important tasks.
+
+### **Shared Problem Solving:**
+
+We use shared discussions and task boards to monitor sprint progress and identify blockers early before they become major delays.
+
+# **POSITIVE PATTERN 2: SET CLEAR GOALS**
+
+## **DEFINITION:**
+
+“Set Clear Goals” means defining understandable objectives, responsibilities, and expectations for the entire team. Clear goals help team members stay organized, focused, and aligned during project development.
+
+## **RELEVANCE TO OUR TEAM:**
+
+Our Solvix project follows Agile Scrum methodology with sprint planning, milestones, user stories, and testing objectives. Because the project includes multiple features such as complaint submission, status tracking, department assignment, and analytics, every team member must clearly understand their responsibilities and deadlines.
+
+Having clear goals helps our team reduce confusion, improve time management, and ensure that all project requirements are completed on time.
+
+## **STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
+
+### **Sprint Planning:**
+
+Before every sprint, we clearly define what tasks need to be completed and assign responsibilities to team members.
+
+### **User Stories and Test Cases:**
+
+We use user stories and detailed test cases to clearly explain expected functionality and project requirements.
+
+### **Measurable Objectives:**
+
+Tasks are divided into smaller achievable goals so progress can be tracked more easily throughout development.
+
+### **Progress Tracking:**
+
+We monitor sprint progress using Scrum boards and burndown charts to ensure deadlines and milestones are respected.
+
+# **POSITIVE PATTERN 3: BE A TEACHER AND MENTOR**
+
+## **DEFINITION:**
+
+“Be a Teacher and Mentor” focuses on supporting teammates, sharing knowledge, and helping the team improve together. Strong collaboration and mentoring create a more skilled, confident, and motivated development team.
+
+**RELEVANCE TO OUR TEAM:**
+
+Since our Solvix team consists of students with different levels of experience in frontend development, backend development, databases, and testing, teamwork and knowledge sharing are extremely important.
+
+Mentoring helps us improve communication, solve problems faster, and ensure that every team member understands both the technical and organizational aspects of the project.
+
+## **STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
+
+### **Knowledge Sharing:**
+
+Team members explain technical concepts, tools, and solutions to each other during development.
+
+### **Collaborative Problem Solving:**
+
+When someone encounters difficulties with coding, database integration, or testing, the team works together to find solutions.
+
+### **Constructive Feedback:**
+
+We give feedback respectfully during testing and sprint reviews to help improve both the project and individual skills.
+
+### **Supporting Growth:**
+
+More experienced members help others understand technologies such as React, Node.js, Express, MySQL, and API integration so the entire team can improve together.
+
+# **NEGATIVE PATTERN 1: IGNORE BLOCKERS AND DELAYS**
+
+## **DEFINITION:**
+
+ "Ignore Blockers and Delays" describes the failure to address obstacles promptly, allowing small problems to grow into significant setbacks. This anti-pattern emerges when team members avoid reporting issues or assume problems will resolve themselves.
+
+## **RELEVANCE TO OUR TEAM:** 
+
+In Solvix, our components are tightly interconnected. An unresolved blocker in the backend or database layer can halt progress across the entire team. With a fixed three-month schedule, even a few days of unaddressed delay can cascade into missed milestones.
+
+## **STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
+
+### **Immediate Reporting:** 
+
+Blockers must be raised as soon as they are identified, not held until the next scheduled meeting. 
+
+### **Escalation Protocol:** 
+
+If a blocker is unresolved within 24 hours, it is escalated to the Project Manager. 
+
+### **Visible Tracking:** 
+
+Blockers are flagged on the Jira board so the entire team maintains real-time awareness.
+
+## **NEGATIVE PATTERN 2: MICROMANAGEMENT**
+
+## **DEFINITION:** 
+
+"Micromanagement" occurs when a leader excessively controls team members' work, leaving little room for autonomy or personal ownership, creating unnecessary bottlenecks in the workflow.
+
+## **RELEVANCE TO OUR TEAM:** 
+
+Solvix has clearly defined roles across backend, frontend, and QA. If the Project Manager overrides technical decisions rather than trusting each specialist, it slows development and reduces motivation during critical sprint cycles.
+
+## 
+
+## **STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
+
+### **Clear Role Boundaries:**
+
+ Each team member owns their domain and is trusted to complete tasks independently.
+
+### **Outcome-Focused Leadership:** 
+
+The Project Manager monitors whether goals are met, not how individual tasks are implemented. 
+
+### **Trust Through Retrospectives:** 
+
+Sprint reviews provide structured feedback, removing the need for constant interim check-ins.
+
+## **NEGATIVE PATTERN 3: POOR COMMUNICATION AND SILOED WORK**
+
+## **DEFINITION:** 
+
+"Poor Communication and Siloed Work" refers to a breakdown in information sharing where individuals work in isolation, leading to duplicated effort, integration failures, and misaligned expectations.
+
+## **RELEVANCE TO OUR TEAM:** 
+
+Solvix is a full-stack application where frontend, backend, and QA are tightly coupled. If team members make assumptions about each other's implementations without communicating, integration errors and outdated test cases will require costly rework.
+
+## **STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
+
+### **Regular Stand-Ups:** 
+
+Frequent Scrum meetings keep everyone informed of progress, blockers, and dependencies.
+
+### **Shared Documentation:**
+
+ API contracts and database schemas are documented and accessible to all team members. 
+
+### **Cross-Role Alignment:** 
+
+Before starting interconnected features, relevant team members agree on expected inputs and outputs.
 
 [image1]: <data:image/png;base64,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>
 
