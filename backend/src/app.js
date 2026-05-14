@@ -1,11 +1,15 @@
 import express from 'express'
-import {complaints, complaintsDetails} from './db.js'
+import cors from 'cors'
+import {complaintsDetails} from './db.js'
 //const express = require('express')
 const app = express()
 const port = 3000
 
+app.use(cors());
+app.use(express.json());
+
 app.get('/allComplaints', (req, res) => {
-  res.json(complaints);
+  res.json(complaintsDetails);
 })
 
 app.get('/getComplaintDetails/:complaintId', (req, res) => {
@@ -16,17 +20,24 @@ app.get('/getComplaintDetails/:complaintId', (req, res) => {
     return;
   }
 
-  let complaintDetails = complaintsDetails.find(complaint => complaint.complaint_id === complaintId);
+  let complaintDetails = complaintsDetails.find(complaint => complaint.id === complaintId);
   res.json(complaintDetails);
 })
 
 app.post('/addComplaint', (req, res) => {
   const newComplaint = req.body;
+  console.log(newComplaint);
+
+  if (!newComplaint) {
+    return res.status(400).json({
+      error: "Invalid request body"
+    });
+  }
 
   // basic validation
   if (
-    !newComplaint.customer_name ||
-    !newComplaint.complaint_type ||
+    !newComplaint.customerName ||
+    !newComplaint.complaintType ||
     !newComplaint.description
   ) {
     return res.status(400).json({
@@ -36,15 +47,15 @@ app.post('/addComplaint', (req, res) => {
 
   // generate new complaint ID
   const nextId =
-    complaints.length + 1;
+    complaintsDetails.length + 1;
 
   const complaintId = `C-${String(nextId).padStart(3, "0")}`;
 
   // simplified complaint object
   const complaintListItem = {
-    complaint_id: complaintId,
-    customer_name: newComplaint.customer_name,
-    complaint_type: newComplaint.complaint_type,
+    id : complaintId,
+    customerName: newComplaint.customerName,
+    complaintType: newComplaint.complaint_type,
     status: "Pending",
     department: newComplaint.department || "Customer Support",
     date_submitted: new Date()
@@ -54,15 +65,15 @@ app.post('/addComplaint', (req, res) => {
 
   // detailed complaint object
   const complaintDetail = {
-    complaint_id: complaintId,
-    customer_name: newComplaint.customer_name,
-    complaint_type: newComplaint.complaint_type,
+    id: complaintId,
+    customerName: newComplaint.customerName,
+    complaintType: newComplaint.complaintType,
     status: "Pending",
     department: newComplaint.department || "Customer Support",
-    date_submitted: new Date()
+    dateSubmitted: new Date()
       .toISOString()
       .split("T")[0],
-    resolved_date: null,
+    resolvedDate: null,
     description: newComplaint.description,
     attachments: newComplaint.attachments || [],
     internal_notes: "",
@@ -74,8 +85,7 @@ app.post('/addComplaint', (req, res) => {
     ]
   };
 
-  complaints.push(complaintListItem);
-  details.push(complaintDetail);
+  complaintsDetails.push(complaintDetail);
 
 
   res.status(201).json({
@@ -88,15 +98,11 @@ app.put("/complaints/:id", (req, res) => {
   const complaintId = req.params.id;
   const { status, department } = req.body;
 
-  const complaint = complaints.find(
-    c => c.complaint_id === complaintId
+  const complaintDetail = complaintsDetails.find(
+    c => c.id === complaintId
   );
 
-  const complaintDetail = details.find(
-    c => c.complaint_id === complaintId
-  );
-
-  if (!complaint || !complaintDetail) {
+  if (!complaintDetail) {
     return res.status(404).json({
       error: "Complaint not found"
     });
@@ -104,13 +110,13 @@ app.put("/complaints/:id", (req, res) => {
 
   // update status
   if (status) {
-    complaint.status = status;
     complaintDetail.status = status;
 
-    complaintDetail.history.push({
-      status,
-      timestamp: new Date().toISOString()
-    });
+    
+    //complaintDetail.history.push({
+      //status,
+      //timestamp: new Date().toISOString()
+    //});
 
     // automatically set resolved date
     if (status === "Resolved") {
@@ -121,7 +127,6 @@ app.put("/complaints/:id", (req, res) => {
 
   // update department
   if (department) {
-    complaint.department = department;
     complaintDetail.department = department;
   }
 
