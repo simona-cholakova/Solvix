@@ -1,23 +1,55 @@
 
 
-| Created  →  Feb 21, 2026  | Last update  →  Mar 31, 2026 |
+| Created  →  Feb 21, 2026  | Last update  →  May 14, 2026 |
 | ----- | :---: |
-|  SOLVIX  Management of Information Technologies   |  |
+|   **SOLVIX **  **Management of Information Technologies**   |  |
 | Simona Cholakova 89231126Nade Belovinova 89231099Jaka Hrvatin 89231224Ema Čikotić 89221136                                                                                              ***UP FAMNIT 2025/26*** |  |
 
-### **Project Description:** 
+# **Introduction**
 
-Solvix is a simple online platform that helps Zalando manage customer complaints in a clear and organized way.
+### 
+
+### This document presents the complete work carried out by our team throughout the Management of Information Technologies course. The project, named Solvix, is a web-based complaint management platform developed for Zalando, one of Europe’s largest e-commerce retailers.
+
+### The following chapters cover every stage of the project lifecycle: from the initial project description and stakeholder analysis, through user research and prototyping, to Agile sprint execution and engineering management principles. Each chapter builds upon the previous one, forming a coherent record of our team’s progress and decisions.
+
+# The document is structured to reflect both the technical and organisational dimensions of the project, and concludes with a summary of outcomes, usability findings, and recommendations for future development.
+
+# 
+
+# 
+
+# 
+
+# 
+
+# 
+
+# 
+
+# 
+
+# 
+
+#  
+
+# 
+
+# 
+
+# **Project Description**
+
+# Solvix is a simple online platform that helps Zalando manage customer complaints in a clear and organized way.
 
 It keeps all complaints in one place, makes communication between departments easier, and helps employees resolve issues faster. The system is also beneficial for customers, as it allows them to submit complaints easily, track their status, and receive quicker responses. This improves both company efficiency and customer satisfaction.
 
-**GitHub:** [https://github.com/simona-cholakova/Solvix](https://github.com/simona-cholakova/Solvix)
+### **GitHub:** [https://github.com/simona-cholakova/Solvix](https://github.com/simona-cholakova/Solvix)
 
 ### **1\. Project Client**
 
 ### [***ZALANDO \- Online Retail Company***](https://www.zalando.com/) 
 
-#### **2\. Importance**
+### **2\. Importance**
 
 As a large European e-commerce company, Zalando processes thousands of customer orders daily. Complaints related to delivery delays, returns, refunds, and damaged products require structured and efficient handling.  
 Implementing a Complaint Management System will:
@@ -30,7 +62,7 @@ Implementing a Complaint Management System will:
 ### **3\. Purpose & objectives**
 
 * **Purpose:** To develop a web-based system for managing and tracking customer complaints.  
-* **Objectives:** 	  
+* **Objectives**: 	  
   * Enable customers to submit complaints online  
   * Categorize complaints by type (refunds, late delivery, damaged product…)  
   * Assign complaints to responsible departments  
@@ -40,33 +72,27 @@ Implementing a Complaint Management System will:
 
 ### **4\. Possible Requirements of the Contracting Authority**
 
-* #### **Description of the Methodology:** The project will follow Agile methodology with short development cycles and continuous feedback.
-
-* **Techniques & technologies used:**   
+* **Description of the Methodology:** The project will follow Agile methodology with short development cycles and continuous feedback.  
+* **Techniques & technologies used**:   
   * Frontend: React  
   * Backend: Node.js / Express  
   * Database: MySQL  
-  * REST API integration
-
-* #### **Description of the Finished Product:** The final system will include:
-
+  * REST API integration  
+* **Description of the Finished Product:** The final system will include:  
   * Complaint submission form  
   * Admin dashboard  
   * Complaint status tracking  
   * Department assignment feature  
-  * Basic analytics and reporting module
-
-* #### **Reporting and Final Report:**
-
+  * Basic analytics and reporting module  
+* **Reporting and Final Report:**  
   * Weekly progress reports  
   * Final technical and functional documentation  
   * Testing and evaluation report  
     
 
-**5\. Project Limitations (Options)**
+### **5\. Project Limitations (Options)**
 
-* #### **Rough Schedule (3 months total):** 
-
+* **Rough Schedule (3 months total):**   
   * Month 1:   
     * Requirements analysis  
     * System design  
@@ -79,48 +105,50 @@ Implementing a Complaint Management System will:
     * Bug fixing  
     * Deployment and documentation
 
-* #### **Available Funds:** 
-
+* **Available Funds:**   
   * Estimated budget: ***€30,000***  
-  * *Sponsor: **ZPS \- Zveza potrošnikov Slovenije***
-
-* #### **Milestones:**
+  * *Sponsor: **ZPS \- Zveza potrošnikov Slovenije***  
+* **Milestones:**
 
   * #### Requirements approved – End of Week 2
 
   * Prototype ready – End of Month 2  
   * Final release \- End of Month 3
 
-#### **6\. Project Management**
+### **6\. Project Management**
 
 * **Project Manager:** Simona Cholakova  
-* **Team Members:**   
+* **Team Members**:   
   * Backend Developer \- Jaka Hrvatin  
   * Frontend Developer \- Nade Belovinova   
   * QA Tester \- Ema Čikotić
 
     
 
-**7\. Date of Order:** 21.02.2026
+### **7\. Date of Order:** 21.02.2026
 
-**8\. Client:** Zalando
+### **8\. Client:** Zalando
 
-**9\. Signature:**     
+### **9\. Signature:**     
 
-**Personas**
+# 
 
-**Persona 1:**  
-	**Demographic**  
-	**Age**                                            45  
-           **Gender**                                     Female   
-           **Marital Status**                         Married  
-           **Income**                                     €70.500  
-           **Experience**   		      18 years   
-	**Employment type**                   Full-time 	       
-**Digital Skill Level**                     Advanced             
+# **Personas**
+
+## **Persona 1:**
+
+	 **Demographic**
+
+	 **Age**                                                            45  
+           **Gender**                                               Female   
+           **Marital Status**                                    Married  
+           **Income**                                              €70.500  
+           **Experience**   		               18 years   
+	 **Employment type**                            Full-time 	       
+ **Digital Skill Level**                           Advanced             
            
 
-           **Anna Wattson                        Quotes:**
+          **Anna Wattson                         Quotes:**
 
    Customer Care Manager                “With the right organization, every complaint leads to                            
 	  at Zalando                            growth.”
@@ -149,16 +177,17 @@ Anna is flexible, enthusiastic and eager to make her career number one priority 
 | “I need to make sure complaints are assigned to the right department quickly.”  | I manually forward emails or contact departments separately. This causes delays, miscommunication, and sometimes duplicated work. | Allow direct department assignment within the system, improving internal communication and reducing resolution time. |
 | “I need to reduce complaint resolution time and improve customer satisfaction.”  | I manually review complaint records and follow up with departments to check progress. This delays decision-making and makes it hard to identify bottlenecks quickly. | Offer real time complaint tracking and insightful analytics, enabling to quickly detect delays, lower response times, and therefore enhance customer satisfaction. |
 
-**Persona 2:**
+## **Persona 2:**
 
-          **Demographic**  
-	         **Age**                                            34  
-           **Gender**                                     Male  
-           **Marital Status**                         Single  
-           **Income**                                     €50.000  
-           **Experience**   		               7 years   
-	          **Employment type**                 Full-time   
-	          **Digital Skill Level**                    Mediocre  
+          **Demographic**
+
+	        **Age**                                                               34  
+           **Gender**                                                       Male  
+           **Marital Status**                                         Single  
+           **Income**                                                  €50.000  
+           **Experience**   		                             7 years   
+	         **Employment type**                               Full-time   
+	         **Digital Skill Level**                               Mediocre  
         
          **Lukas Weber                       Quotes:**  
    Accountant at Zalando               “Returns are part of the business model. But when they                                                
@@ -187,18 +216,19 @@ Lukas prefers structured systems and clear communication between departments to 
 
  
 
-**Persona 3:**  
+## **Persona 3:**
+
        **Demographic**  
         
-       **Age**                                 19  
-       **Gender**                          Female   
-       **Marital Status**              Single  
-       **Income**                          €500(monthly allowance)  
-       **Employment type**       Student (Not employed)  
-        **Digital Skill Level**         High             
+       **Age**                                                                 19  
+        **Gender**                                                    Female   
+        **Marital Status**                                           Single  
+        **Income**                        €500(monthly allowance)  
+        **Employment type**         Student (Not employed)  
+        **Digital Skill Level**                                        High             
    
 
-           **Dorothy Novak                    Quotes:**
+           **Dorothy Novak                     Quotes:**
 
 First year student in Slovenia          “If something goes wrong, fixing it shouldn’t take hours.”             
 
@@ -224,9 +254,9 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 | “I have proof that my code should work, but the checkout page says it’s expired. I need to show someone my screenshot” |  Searching for a hidden customer service email or waiting in a live chat queue for 40 minutes. | Quickly upload her screenshot via a dedicated complaint form, ensuring her evidence is seen by the right department.  |
 | “I submitted a complaint through email, but I have no idea if anyone is looking at it. I’m afraid the sneakers will go out of stock.”  |  Refreshing email inbox constantly and hoping for a non-automated reply. |  Use the Status Tracking feature to see that her complaint is “In Progress”, giving her peace of mind that resolution is coming. |
 
-### **User stories and prototyping**
+# **User stories and prototyping**
 
-**Persona 1 : Anna Watson, the Customer Care Manager**
+### **Persona 1** : Anna Watson, the Customer Care Manager
 
 **Epic Story:** As a team leader, I want one simple screen to see and assign all incoming complaints, so I can make sure my team is working on the right things and no customer is left waiting.
 
@@ -236,27 +266,29 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 |  As a Customer Care Manager, I want to assign complaints to the appropriate department so that issues are handled by the correct team. | **TC1:  Make sure**  a department dropdown is available when viewing a complaint. **TC2:  Make sure** the assignment can be saved. **TC3: Make sure** the complaint appears in the assigned department’s queue. |
 |  As a Customer Care Manager, I want to track the status of complaints so that I can ensure they are resolved within an acceptable time. | **TC1:  Make sure** complaint status is visible (Pending, In Progress, Resolved). **TC2:  Make sure** departments can update complaint status. **TC3: Make sure** the resolution time is recorded and displayed. |
 
-**Persona 2: Lukas Webber, the accountant**
+### **Persona 2**: Lukas Webber, the accountant
 
 **Epic story**: As a financial accountant, I want to have full transparency and structured access to all financially relevant complaints, so that I can eliminate manual tracking, reduce stress during month end closing and ensure the company’s financial reports are 100% accurate.
 
 | *User story* | *Test cases* |
 | :---- | :---- |
 | As a Financial Accountant,I want to view a real time list of complaints categorized as **"Refunds"** or **"Returns"** (or else)**,** so that I can identify potential financial liabilities before they hit the books. | **TC1:** Verify that the dashboard allows filtering by "Complaint Type" (e.g., Refund, Damaged Product). **TC2:** Ensure that each financial complaint displays the specific **Order Value** and **Requested Refund Amount**. **TC3:** Confirm that the dashboard status updates automatically when a Customer Care agent approves a refund. **TC4:** Verify that a "Closing Date" filter exists, allowing Lukas to see only complaints submitted within the current fiscal month. |
-|  As a Financial Accountant, I want to export complaint data into a structured CSV or Excel file, so that I can import the data directly into my accounting software without manual re-formatting.  | **TC1:** Verify the existence of an **"Export to CSV/Excel"** button within the reporting module. **TC2:** Confirm that the exported file contains the following mandatory columns: `Complaint_ID`, `Status`, `Amount`, `Date_Approved`, and `Order_ID`. **TC3:** Ensure that the export includes a **"Status"** flag **(e.g., "Pending" vs "Resolved")** to help differentiate actual payouts. **TC4:** Verify that the system generates a success message or notification once the file is ready for download.  |
+|  As a Financial Accountant, I want to export complaint data into a structured CSV or Excel file, so that I can import the data directly into my accounting software without manual re-formatting.  | **TC1:** Verify the existence of an **"Export to CSV/Excel"** button within the reporting module. **TC2:** Confirm that the exported file contains the following mandatory columns: Complaint\_ID, Status, Amount, Date\_Approved, and Order\_ID. **TC3:** Ensure that the export includes a **"Status"** flag **(e.g., "Pending" vs "Resolved")** to help differentiate actual payouts. **TC4:** Verify that the system generates a success message or notification once the file is ready for download.  |
 |  As a Financial Accountant, I want to receive a summary report of all approved refunds for the current month, so that I can easily reconcile them with the financial statements. | **TC1:** Verify that the reporting module includes a **“Monthly Refund Summary” option**. **TC2:** Ensure the report lists **Complaint ID, Order ID, Refund Amount, Approval Date, and Status**. **TC3:** Confirm that Lukas can **filter the report by month and year**. **TC4:** Verify that only complaints with **status \= Resolved/Refund Approved** appear in the report. |
 
-**Persona 3 : Dorothy Novak, the Student**
+### 
+
+### **Persona 3** : Dorothy Novak, the Student
 
 **Epic Story:** As a busy student, I want a quick way to report my issue and see exactly what is happening with it, so I can get my discount fixed without wasting time on phone calls or checking my email constantly.
 
 | *User story* | *Test cases* |
 | :---- | :---- |
-| I want to upload proof (like screenshots) when submitting a complaint, so that the support team can quickly verify my issue and resolve it. | **TC1:** The user can **attach files** to the complaint form. **TC2:** The file is visible to the support team handling the complaint.  |
-| I want to track the status of my complaint, so that I know whether it is being processed and don’t have to constantly check my email. | **TC1:** The complaint has statuses like  **Submitted, Seen, In-Progress, Resolved.** **TC2:** Users can view the complaint status in their account and receive **push notifications** whenever the status is updated. **TC3:** The **complaint status updates automatically** when support takes action.  |
+| I want to upload proof (like screenshots) when submitting a complaint, so that the support team can quickly verify my issue and resolve it. | **TC1:** The user can **attach files** to the complaint form. **TC2:** The file is visible to the support team handling the complaint. |
+| I want to track the status of my complaint, so that I know whether it is being processed and don’t have to constantly check my email. | **TC1:** The complaint has statuses like  **Submitted, Seen, In-Progress, Resolved.** **TC2:** Users can view the complaint status in their account and receive **push notifications** whenever the status is updated. **TC3:** The **complaint status updates automatically** when support takes action. |
 |  As a customer, I want to receive a clear resolution or response to my complaint directly on the platform, so that I don’t have to communicate through multiple emails or support channels. | **TC1:** Verify that the system allows support staff to **send a response or resolution message directly within the complaint page**. **TC2:** Ensure that the customer can **view the response when they open their complaint in their account**. **TC3:** Confirm that the response clearly shows **the resolution details** (e.g., replacement promo code, refund approval, explanation). **TC4:** Verify that the system **marks the complaint as “Resolved” once the resolution message is sent**. **TC5:** Ensure the customer can **acknowledge or confirm the resolution** (for example with a “Mark as solved” button). |
 
-**User Interviews and Prototyping**
+# **User Interviews and Prototyping**
 
 **People interviewed:** 
 
@@ -266,7 +298,7 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 | Darko Cholakov | Accountant  | Represents financial staff who need visibility into complaints |
 | Alja Eremic | Zalando user | Represents regular e-commerce users |
 
-**Interview 1 \- Accountant:**
+## **Interview 1 \- Accountant:**
 
 **Name:** Darko Cholakov  
 **Age:** 40  
@@ -299,7 +331,7 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 **Q8: Would search functionality help you find specific complaints or orders faster?**  
 **A:** Yes, especially when checking specific orders during financial audits or reporting.
 
-**Interview 2 – Zalando User**
+## **Interview 2 – Zalando User**
 
 **Name:** Eva Petrushevska  
 **Age:** 21  
@@ -326,7 +358,7 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 **Q6: Would it be useful to search for your complaints in your account instead of scrolling through emails?**  
 **A:** Yes, that would make it easier to find and track status of complaints.
 
-**Interview 3 – Zalando User**
+## **Interview 3 – Zalando User**
 
 **Name:** Alja Eremic  
 **Age:** 22  
@@ -353,7 +385,7 @@ For Dorothy this isn’t just a technical glitch; it’s the difference between 
 **Q6: Would it be useful to search for your complaints in your account instead of scrolling through emails?**  
 **A:** I guess yes, if you have multiple complaints at once.
 
-**Conclusions**
+## **Conclusions**
 
 The interviews confirm that the main hypotheses are valid.
 
@@ -363,13 +395,9 @@ The interviews confirm that the main hypotheses are valid.
 
 Overall, both employees and customers would benefit from a **centralized system**, and the interviews highlighted **search functionality** as an important improvement for the prototype.
 
-**Link to our Prototype:** 
+# **Usability Testing Plan**
 
-[https://femur-push-29224551.figma.site/](https://femur-push-29224551.figma.site/)
-
-**Usability Testing Plan**
-
-**Objective and Methods**
+## **Objective and Methods**
 
 The goal of this usability test is to evaluate whether the complaint management interface allows Customer Care Managers to efficiently view, filter, and manage complaints.
 
@@ -391,7 +419,7 @@ The tester will observe user behavior, measure task completion time, and record 
 
 **Product Version** 
 
-We will be using our interactive [Figma Prototype](https://femur-push-29224551.figma.site/)
+We will be using our interactive [Figma Prototype](https://femur-push-29224551.figma.site/) 
 
 **Subjects**
 
@@ -402,7 +430,7 @@ The test will include 3 or more participants who match the target persona (users
 * Have you ever used a dashboard or system to manage tasks, complaints, or data?  
 * How often do you use such systems? (Daily / Occasionally / Never). 
 
-**Research Composition**
+## **Research Composition**
 
 | \# | Item | Duration(min.) | Notes |
 | :---- | :---- | :---- | :---- |
@@ -418,7 +446,8 @@ The test will include 3 or more participants who match the target persona (users
 | 2 | Confirm the prototype is working. | Test all commands and flows. |
 | 3 | Confirm note-taking setup and timer. | Take hand written notes during the session and time each task. |
 
-**Session Design**  
+## **Session Design**
+
    
 **“**Thank you for taking the time to participate in this test. My name is \_\_\_, and we are testing an early version of a complaint management interface designed to help Customer Care Managers easily navigate complaints and assign them to the appropriate departments.
 
@@ -446,7 +475,7 @@ Do you have any questions before we begin?”
 
 Notes will be taken during the session, including observations and participant feedback.
 
-**Post-Test Debrief**
+## **Post-Test Debrief**
 
 Thank you very much for your participation. Your feedback will help us improve the product. Before we finish, we have a few final questions:
 
@@ -458,9 +487,9 @@ Thank you very much for your participation. Your feedback will help us improve t
 
 That’s everything for now. Would it be alright if we contacted you later for follow-up questions or additional testing, if needed?
 
-**Test Result**
+## **Test Result**
 
-**Person 1:**
+### **Person 1:**
 
 | Task | Time | Result | Notes |
 | ----- | :---: | :---: | ----- |
@@ -472,12 +501,12 @@ That’s everything for now. Would it be alright if we contacted you later for f
 | Add internal note | 41 sec | Success | Comment box easy to find |
 | Save changes | 14 sec | Failed initially | Didn’t notice button; expected auto‑save |
 
-### **General Feedback**
+**General Feedback:**
 
 * “The layout is clean but the Save button blends in too much.”  
 * “Status change interaction feels different from other systems I use.”
 
-**Person 2:** 
+### **Person 2:** 
 
 | Task | Time | Result | Notes |
 | ----- | :---: | :---: | ----- |
@@ -489,7 +518,7 @@ That’s everything for now. Would it be alright if we contacted you later for f
 | Add internal note | 50 sec | Struggled | Thought notes were in a different tab |
 | Save changes | 10 sec | Success | Found button after scanning bottom area |
 
-### **General Feedback**
+**General Feedback:**
 
 * “I wasn’t sure where to add notes.”  
 * “Status options need clearer wording.”
@@ -504,9 +533,10 @@ That’s everything for now. Would it be alright if we contacted you later for f
   
 
 
-  
 
-**Person 3:**  
+
+
+### **Person 3:**  
 
 | Task | Time | Result | Notes |
 | ----- | :---: | :---: | ----- |
@@ -518,12 +548,12 @@ That’s everything for now. Would it be alright if we contacted you later for f
 | Add internal note | 50 sec | Success | No issues |
 | Save changes | 10 sec | Success | No issues |
 
-### **General Feedback**
+**General Feedback:**
 
 * “Everything is straightforward.”  
 * “Save button is fine, but could be more prominent.”
 
-**Person 4:** 
+### **Person 4:** 
 
 | Task | Time | Result | Notes |
 | ----- | :---: | :---: | ----- |
@@ -535,7 +565,7 @@ That’s everything for now. Would it be alright if we contacted you later for f
 | Add internal note | 16 sec  | Success | Found it easily and was happy to use it. |
 | Save changes | 3 sec | Success | No issues |
 
-### **General Feedback**
+**General Feedback:**
 
 * “The save button could be placed at the very end of the complaint details, as I might just scroll up the Save button and miss the Internal Notes section.”  
 * “The complaint could be opened by clicking anywhere on the row..”  
@@ -543,12 +573,10 @@ That’s everything for now. Would it be alright if we contacted you later for f
 * “Could be useful  to have a color coding for each status.”  
 * “It  is  easy to use.”  
     
-    
-    
   
 
 
-**Conclusion**
+## **Conclusion**
 
 **![][image1]**
 
@@ -566,7 +594,7 @@ That’s everything for now. Would it be alright if we contacted you later for f
 
 **Figure 4: Difficulty ratio \- time spent relative to expected, per participant per task**
 
-***Final Note:*** 
+## **Final Note**
 
 The interface is largely usable and well received. 
 
@@ -578,13 +606,13 @@ A filter reset button was also a repeated ask.
 
 Everything else is minor polish.
 
-**Scrum**
+# **Scrum**
 
 For Sprint 0, we have successfully covered all the necessary planning and preparation activities required for the project. This includes defining the project scope, objectives, personas, user stories, system requirements, and selecting the appropriate technologies and methodology. Since Sprint 0 is focused on planning rather than execution, the use of a project management tool such as Jira was not necessary at this stage. 
 
 - All relevant information has been documented and structured within this report, providing a clear foundation for the upcoming development sprints.
 
-***Sprint 1***
+### **Sprint 1**
 
 ![][image5]
 
@@ -600,7 +628,7 @@ For Sprint 0, we have successfully covered all the necessary planning and prepar
 
 **Figure 3: Sprint 1 Burndown Chart:** The chart shows the decrease in remaining tasks throughout the sprint, indicating team progress.
 
-Project stakeholders
+# **Project stakeholders**
 
 | Symbol | Meaning  | Description |
 | :---- | :---- | :---- |
@@ -618,70 +646,70 @@ Project stakeholders
 | **Project Team (Developers, QA, PM)**  | \+ | Wants to deliver a successful project, meet deadlines, and achieve good academic results. | Risk of stress, miscommunication, or overload due to deadlines. | Use Agile (Scrum), regular meetings, clear task division, realistic sprint planning. |
 | **ZPS – Zveza potrošnikov Slovenije (Sponsor)** | \+ | Wants the system to represent consumer interests, ensure transparency in complaint handling, and improve customer rights protection. | May push for more consumer facing features over internal ones. Benefit: adds credibility and legitimacy to the project. | Keep them informed through final documentation and reports. Ensure the system fairly represents customer needs alongside company needs. |
 
-**Engineering Management – Leadership**
+# **Engineering Management – Leadership**
 
-**Positive pattern 1: Remove roadblocks**
+### **Positive pattern 1**: Remove roadblocks
 
 **DEFINITION:**  
  “Remove Roadblocks” focuses on helping the team solve obstacles quickly so development can continue efficiently. This pattern encourages proactive communication, collaboration, and fast problem-solving whenever technical, organizational, or communication issues appear.
 
-## **RELEVANCE TO OUR TEAM:**
+**RELEVANCE TO OUR TEAM:**
 
 In our *Solvix* project, we are developing a complaint management platform for Zalando that includes frontend, backend, database integration, dashboards, complaint tracking, and reporting systems. Since multiple team members work on connected features, blockers can easily slow down progress if they are not addressed immediately.
 
 By removing roadblocks quickly, our team can maintain sprint progress, reduce delays, and improve collaboration between frontend, backend, QA testing, and project management tasks. This helps us stay focused on delivering an organized and user-friendly complaint management system.
 
-## **STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
+**STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
 
-### **Quick Communication:**
+**Quick Communication:**
 
 We discuss blockers during Scrum stand-ups and immediately inform teammates when technical or organizational problems appear.
 
-### **Team Collaboration:**
+**Team Collaboration:**
 
 If one team member struggles with API integration, database setup, or frontend issues, other members help solve the problem instead of letting work stop.
 
-### **Prioritizing Critical Issues:**
+**Prioritizing Critical Issues:**
 
 Important issues such as backend crashes, database connection problems, or broken complaint tracking features are solved before moving to less important tasks.
 
-### **Shared Problem Solving:**
+**Shared Problem Solving:**
 
 We use shared discussions and task boards to monitor sprint progress and identify blockers early before they become major delays.
 
-# **POSITIVE PATTERN 2: SET CLEAR GOALS**
+### **Positive pattern 2**: Set Clear Goals
 
-## **DEFINITION:**
+**DEFINITION:**
 
 “Set Clear Goals” means defining understandable objectives, responsibilities, and expectations for the entire team. Clear goals help team members stay organized, focused, and aligned during project development.
 
-## **RELEVANCE TO OUR TEAM:**
+**RELEVANCE TO OUR TEAM:**
 
 Our Solvix project follows Agile Scrum methodology with sprint planning, milestones, user stories, and testing objectives. Because the project includes multiple features such as complaint submission, status tracking, department assignment, and analytics, every team member must clearly understand their responsibilities and deadlines.
 
 Having clear goals helps our team reduce confusion, improve time management, and ensure that all project requirements are completed on time.
 
-## **STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
+**STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
 
-### **Sprint Planning:**
+**Sprint Planning:**
 
 Before every sprint, we clearly define what tasks need to be completed and assign responsibilities to team members.
 
-### **User Stories and Test Cases:**
+**User Stories and Test Cases:**
 
 We use user stories and detailed test cases to clearly explain expected functionality and project requirements.
 
-### **Measurable Objectives:**
+**Measurable Objectives:**
 
 Tasks are divided into smaller achievable goals so progress can be tracked more easily throughout development.
 
-### **Progress Tracking:**
+**Progress Tracking:**
 
 We monitor sprint progress using Scrum boards and burndown charts to ensure deadlines and milestones are respected.
 
-# **POSITIVE PATTERN 3: BE A TEACHER AND MENTOR**
+### **Positive pattern 3**: Be a teacher and mentor
 
-## **DEFINITION:**
+**DEFINITION:**
 
 “Be a Teacher and Mentor” focuses on supporting teammates, sharing knowledge, and helping the team improve together. Strong collaboration and mentoring create a more skilled, confident, and motivated development team.
 
@@ -691,95 +719,95 @@ Since our Solvix team consists of students with different levels of experience i
 
 Mentoring helps us improve communication, solve problems faster, and ensure that every team member understands both the technical and organizational aspects of the project.
 
-## **STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
+**STRATEGIES TO ADDRESS THIS POSITIVE PATTERN:**
 
-### **Knowledge Sharing:**
+**Knowledge Sharing:**
 
 Team members explain technical concepts, tools, and solutions to each other during development.
 
-### **Collaborative Problem Solving:**
+**Collaborative Problem Solving:**
 
 When someone encounters difficulties with coding, database integration, or testing, the team works together to find solutions.
 
-### **Constructive Feedback:**
+**Constructive Feedback:**
 
 We give feedback respectfully during testing and sprint reviews to help improve both the project and individual skills.
 
-### **Supporting Growth:**
+**Supporting Growth:**
 
 More experienced members help others understand technologies such as React, Node.js, Express, MySQL, and API integration so the entire team can improve together.
 
-# **NEGATIVE PATTERN 1: IGNORE BLOCKERS AND DELAYS**
+### **Negative pattern 1**: Ignore blockers and delays
 
-## **DEFINITION:**
+**DEFINITION:**
 
  "Ignore Blockers and Delays" describes the failure to address obstacles promptly, allowing small problems to grow into significant setbacks. This anti-pattern emerges when team members avoid reporting issues or assume problems will resolve themselves.
 
-## **RELEVANCE TO OUR TEAM:** 
+**RELEVANCE TO OUR TEAM:** 
 
 In Solvix, our components are tightly interconnected. An unresolved blocker in the backend or database layer can halt progress across the entire team. With a fixed three-month schedule, even a few days of unaddressed delay can cascade into missed milestones.
 
-## **STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
+**STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
 
-### **Immediate Reporting:** 
+**Immediate Reporting:** 
 
 Blockers must be raised as soon as they are identified, not held until the next scheduled meeting. 
 
-### **Escalation Protocol:** 
+**Escalation Protocol:** 
 
 If a blocker is unresolved within 24 hours, it is escalated to the Project Manager. 
 
-### **Visible Tracking:** 
+**Visible Tracking:** 
 
 Blockers are flagged on the Jira board so the entire team maintains real-time awareness.
 
-## **NEGATIVE PATTERN 2: MICROMANAGEMENT**
+### **Negative pattern 2**: Micromanagement
 
-## **DEFINITION:** 
+**DEFINITION:** 
 
 "Micromanagement" occurs when a leader excessively controls team members' work, leaving little room for autonomy or personal ownership, creating unnecessary bottlenecks in the workflow.
 
-## **RELEVANCE TO OUR TEAM:** 
+**RELEVANCE TO OUR TEAM:** 
 
 Solvix has clearly defined roles across backend, frontend, and QA. If the Project Manager overrides technical decisions rather than trusting each specialist, it slows development and reduces motivation during critical sprint cycles.
 
 ## 
 
-## **STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
+**STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
 
-### **Clear Role Boundaries:**
+**Clear Role Boundaries:**
 
- Each team member owns their domain and is trusted to complete tasks independently.
+Each team member owns their domain and is trusted to complete tasks independently.
 
-### **Outcome-Focused Leadership:** 
+**Outcome-Focused Leadership:** 
 
 The Project Manager monitors whether goals are met, not how individual tasks are implemented. 
 
-### **Trust Through Retrospectives:** 
+**Trust Through Retrospectives:** 
 
 Sprint reviews provide structured feedback, removing the need for constant interim check-ins.
 
-## **NEGATIVE PATTERN 3: POOR COMMUNICATION AND SILOED WORK**
+### **Negative pattern 3**: Poor communication and siloed work
 
-## **DEFINITION:** 
+**DEFINITION:** 
 
 "Poor Communication and Siloed Work" refers to a breakdown in information sharing where individuals work in isolation, leading to duplicated effort, integration failures, and misaligned expectations.
 
-## **RELEVANCE TO OUR TEAM:** 
+**RELEVANCE TO OUR TEAM:** 
 
 Solvix is a full-stack application where frontend, backend, and QA are tightly coupled. If team members make assumptions about each other's implementations without communicating, integration errors and outdated test cases will require costly rework.
 
-## **STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
+**STRATEGIES TO AVOID THIS NEGATIVE PATTERN:** 
 
-### **Regular Stand-Ups:** 
+**Regular Stand-Ups:** 
 
 Frequent Scrum meetings keep everyone informed of progress, blockers, and dependencies.
 
-### **Shared Documentation:**
+**Shared Documentation:**
 
  API contracts and database schemas are documented and accessible to all team members. 
 
-### **Cross-Role Alignment:** 
+**Cross-Role Alignment:** 
 
 Before starting interconnected features, relevant team members agree on expected inputs and outputs.
 
