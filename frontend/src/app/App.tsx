@@ -1,5 +1,5 @@
 import { RouterProvider } from "react-router";
-import { router } from "./routes";
+import { router } from "../routes.tsx";
 import { ComplaintsProvider } from "./context/ComplaintsContext";
 
 export default function App() {
